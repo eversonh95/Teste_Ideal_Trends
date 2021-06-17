@@ -1,0 +1,90 @@
+html{
+    font-family:'Late', Arial, sans-serif;
+    color: gray;
+}
+
+.topo{
+    color: white;
+    background-color: rgb(4, 4, 177);
+    text-align: right;
+    word-spacing: 20px;
+    float: top;
+}
+
+#slider{
+    width: 894px;
+    height: 290px;
+}
+
+.menu{
+    text-align: right;
+}
+
+.menu ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.menu li{
+    display: inline;
+    padding: 15px;
+}
+
+.menu ul li:hover{
+    background-color: rgb(4, 4, 177);
+    color: white;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.container img{
+    width: 325px;
+    height: 212px;
+}
+
+.boxes img{
+    width: 196px;
+    height: 163px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.rodape{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(88, 86, 86);
+    height: 200px;
+}
+
+.rodape nav{
+    padding: 20px;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: white;
+}
+
+.rodape ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.rodape li{
+    display: inline;
+    padding: 15px;
+}
